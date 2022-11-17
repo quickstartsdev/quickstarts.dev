@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkquickstarts=self.webpackChunkquickstarts||[]).push([[195],{2841:(e,t,u)=>{u.r(t),u.d(t,{default:()=>i});var r=u(7294),s=u(3285);function i(){return r.createElement(s.Z,{title:"Quick Starts | A guide to devs out there",description:"A guide to devs out there"},r.createElement("main",null))}}}]);
