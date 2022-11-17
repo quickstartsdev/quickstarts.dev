@@ -1,8 +1,9 @@
 ---
 slug: about
-title: About Quick Starts
+title: About
 description: It's all about quickstarts.dev project and author - Peeyush Sahu
 image: static/img/favicon.png
+author: [peeyush]
 keywords:
   [
     about,

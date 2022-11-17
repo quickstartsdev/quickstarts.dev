@@ -59,11 +59,11 @@ const config = {
           },
           {
             type: "doc",
-            docId: "intro",
+            docId: "index",
             position: "right",
-            label: "Tutorial",
+            label: "Tutorials",
           },
-          { to: "/blog", label: "Blog", position: "right" },
+          { to: "/blog", label: "Articles", position: "right" },
         ],
       },
       footer: {
@@ -75,40 +75,16 @@ const config = {
           width: 60,
           height: 60,
         },
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/quickstartsdev",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "About",
-                to: "/about",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} | Quick Starts`,
+        copyright: `<p>Copyright © ${new Date().getFullYear()} | Quick Starts</p>
+        <div>
+        <a href='https://stackoverflow.com/questions/tagged/quickstartsdev' target='_blank'><img src='/img/stack-overflow.png' height='24' width='24' /></a>
+        <a href='https://www.youtube.com/@quickstartsdev' target='_blank'><img src='/img/youtube.png' height='24' width='24' /></a>
+        <a href='https://www.instagram.com/quickstartsdev' target='_blank'><img src='/img/instagram.png' height='24' width='24' /></a>
+        <a href='https://twitter.com/quickstartsdev' target='_blank'><img src='/img/twitter.png' height='24' width='24' /></a>
+        <a href='https://www.linkedin.com/company/quickstartsdev' target='_blank'><img src='/img/linkedin.png' height='24' width='24' /></a>
+        <a href='https://www.facebook.com/quickstartsdev' target='_blank'><img src='/img/facebook.png' height='24' width='24' /></a>
+        </div>
+        `,
       },
       prism: {
         theme: lightCodeTheme,
