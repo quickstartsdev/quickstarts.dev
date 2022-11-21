@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkquickstarts=self.webpackChunkquickstarts||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"My first post","permalink":"/blog/first-post"},{"title":"Welcome to Quick Starts","permalink":"/blog/welcome"}]}')}}]);

@@ -1,0 +1,21 @@
+{
+    "name": "Quick Starts",
+    "short_name": "QuickStarts",
+    "theme_color": "#2196f3",
+    "background_color": "#424242",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./index.html",
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://quickstarts.dev/manifest.json"
+        }
+    ],
+    "icons": [
+        {
+            "src": "img/favicon.png",
+            "type": "image/png"
+        }
+    ]
+}

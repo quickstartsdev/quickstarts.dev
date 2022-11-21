@@ -9,16 +9,6 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Welcome to Quick Starts]]></title>
-            <link>https://quickstarts.dev/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Thu, 17 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>]]></content:encoded>
-            <category>quick start</category>
-            <category>welcome</category>
-        </item>
-        <item>
             <title><![CDATA[My first post]]></title>
             <link>https://quickstarts.dev/blog/first-post</link>
             <guid>first-post</guid>
@@ -27,6 +17,16 @@
             <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>]]></content:encoded>
             <category>quick start</category>
             <category>first post</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome to Quick Starts]]></title>
+            <link>https://quickstarts.dev/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Thu, 17 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is the summary of a very long blog post,]]></description>
+            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>]]></content:encoded>
+            <category>quick start</category>
+            <category>welcome</category>
         </item>
     </channel>
 </rss>

@@ -8,20 +8,6 @@
     <subtitle>Quick Starts Blog</subtitle>
     <icon>https://quickstarts.dev/img/favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome to Quick Starts]]></title>
-        <id>welcome</id>
-        <link href="https://quickstarts.dev/blog/welcome"/>
-        <updated>2022-11-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>]]></content>
-        <author>
-            <name>Peeyush Sahu</name>
-            <uri>https://github.com/peeyush-sahu</uri>
-        </author>
-        <category label="quick start" term="quick start"/>
-        <category label="welcome" term="welcome"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[My first post]]></title>
         <id>first-post</id>
         <link href="https://quickstarts.dev/blog/first-post"/>
@@ -34,5 +20,19 @@
         </author>
         <category label="quick start" term="quick start"/>
         <category label="first post" term="first post"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to Quick Starts]]></title>
+        <id>welcome</id>
+        <link href="https://quickstarts.dev/blog/welcome"/>
+        <updated>2022-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
+        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>]]></content>
+        <author>
+            <name>Peeyush Sahu</name>
+            <uri>https://github.com/peeyush-sahu</uri>
+        </author>
+        <category label="quick start" term="quick start"/>
+        <category label="welcome" term="welcome"/>
     </entry>
 </feed>
