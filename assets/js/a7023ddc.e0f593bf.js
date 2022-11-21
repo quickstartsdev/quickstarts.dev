@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkquickstarts=self.webpackChunkquickstarts||[]).push([[713],{3457:t=>{t.exports=JSON.parse('[{"label":"quick start","permalink":"/blog/tags/quick-start","count":2},{"label":"first post","permalink":"/blog/tags/first-post","count":1},{"label":"welcome","permalink":"/blog/tags/welcome","count":1}]')}}]);
