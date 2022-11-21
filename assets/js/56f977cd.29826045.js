@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkquickstarts=self.webpackChunkquickstarts||[]).push([[25],{3738:s=>{s.exports=JSON.parse('{"label":"first post","permalink":"/blog/tags/first-post","allTagsPath":"/blog/tags","count":1}')}}]);
