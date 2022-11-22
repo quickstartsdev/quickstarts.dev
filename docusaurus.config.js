@@ -45,6 +45,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "support_us",
+        content: "🚧 Website is under construction 🚧",
+        backgroundColor: "#000000",
+        textColor: "#ffffff",
+        isCloseable: false,
+      },
       navbar: {
         title: "Quick Starts",
         hideOnScroll: true,
@@ -53,17 +60,18 @@ const config = {
           src: "img/favicon.png",
         },
         items: [
+          { to: "/about", label: "About", position: "right" },
+          {
+            type: "doc",
+            docId: "react-js/overview",
+            position: "right",
+            label: "Topics",
+          },
+          { to: "/blog", label: "Blogs", position: "right" },
           {
             type: "search",
             position: "right",
           },
-          {
-            type: "doc",
-            docId: "index",
-            position: "right",
-            label: "Tutorials",
-          },
-          { to: "/blog", label: "Articles", position: "right" },
         ],
       },
       footer: {
@@ -90,12 +98,38 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      colorMode: {
-        defaultMode: "dark",
-        disableSwitch: true,
-        respectPrefersColorScheme: false,
-      },
     }),
+
+  plugins: [
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          "appInstalled",
+          "standalone",
+          "queryString",
+        ],
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "/img/favicon.png",
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json",
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "#ffffff",
+          },
+        ],
+      },
+    ],
+  ],
 };
 
 module.exports = config;
