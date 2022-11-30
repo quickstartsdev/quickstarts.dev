@@ -10,13 +10,13 @@ keywords:
     quickstarts.dev,
     quickstarts,
     quick start,
-    react,
-    react-native,
-    html,
-    css,
   ]
 ---
 
 # About Project
 
+**QuickStarts** is an open source project which helps *Freshers*, *New To Development* or any *Dev's* who is trying to start quickly with any tech stack.
+
 # About Author
+
+[Peeyush Sahu](https://www.linkedin.com/in/peeyushsahu/) is a seasoned developer who :heart: to code and help *Dev's* out there.

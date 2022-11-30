@@ -2,6 +2,7 @@
     "label": "Angular",
     "link": {
         "type": "generated-index",
-        "description": "20 minutes to learn the most important Angular concepts."
+        "description": "20 minutes to learn the most important Angular concepts.",
+        "image": "https://angular.io/assets/images/favicons/favicon-194x194.png"
     }
 }

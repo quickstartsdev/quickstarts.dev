@@ -54,7 +54,6 @@ const config = {
       },
       navbar: {
         title: "Quick Starts",
-        hideOnScroll: true,
         logo: {
           alt: "Quick Starts Logo",
           src: "img/favicon.png",
@@ -63,7 +62,7 @@ const config = {
           { to: "/about", label: "About", position: "right" },
           {
             type: "doc",
-            docId: "react-js/overview",
+            docId: "angular-js/overview",
             position: "right",
             label: "Topics",
           },
