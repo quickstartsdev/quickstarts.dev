@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkquickstarts=self.webpackChunkquickstarts||[]).push([[9154],{6270:a=>{a.exports=JSON.parse('{"title":"Angular","description":"20 minutes to learn the most important Angular concepts.","slug":"/category/angular","permalink":"/docs/category/angular","navigation":{"next":{"title":"Basics of Angular","permalink":"/docs/angular-js/overview"}}}')}}]);
